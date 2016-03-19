@@ -32,7 +32,7 @@
                 'wink': '1F609',
                 'kiss': '1F617',
            'hearteyes': '1F60D', 
-            'tongeout': '1F61B', 
+           'tongueout': '1F61B', 
         'tongeoutwink': '1F61C', 
                  'cry': '1F6322',
               'crying': '1F622',
@@ -56,7 +56,7 @@
          'medicalmask': '1F637', 
                 'halo': '1F607',
                'angel': '1F607',
-          'toungelick': '1F60B',
+          'tonguelick': '1F60B',
            'delicious': '1F60B',
     }; 
 
