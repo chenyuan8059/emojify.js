@@ -4,7 +4,7 @@ Short JavaScript code to easily utilize unicode emojis without memorizing, or lo
 This library has the most common, and versatile, emojis while remaining lightweight and easy to use.
 
 ## Syntax 
-This library contains 32 of the most common emojis for your use, to use them simply surround the name of the emoji in colons, like ```:emojiname:```
+This library contains 31 of the most common emojis for your use, to use them simply surround the name of the emoji in colons, like ```:emojiname:```
 
 
 Here is a list of the emojis names available to use, and the emoji they become: 
