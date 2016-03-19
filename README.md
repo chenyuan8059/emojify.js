@@ -40,7 +40,7 @@ This library contains 31 of the most common emojis for your use, to use them sim
 Here is a list of the emoji names available to use, and the emoji they become: 
 ```
                 smile -> 😊
-      frown, pounting -> 😡
+       frown, pouting -> 😡
        grin, grinning -> 😀
              bigsmile -> 😄
              laughcry -> 😂
