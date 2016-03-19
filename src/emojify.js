@@ -12,7 +12,7 @@
 (function(){
   var emojify = function(){
     // Do not break scope
-    if (this === HTMLElement || this === NodeList)
+    if (this === HTMLElement || this === NodeList || this === HTMLCollection)
     {
       return new emojify();
     }
@@ -89,7 +89,7 @@
     this.replace = function()
     {
       // Perform on a list of elements
-      if(this.parent instanceof NodeList)
+      if(this.parent instanceof NodeList || this.parent instanceof HTMLCollection)
       {
         // Replace in every element in the parent nodelist 
         for (var i = 0; i < this.parent.length; i++)
@@ -122,6 +122,10 @@
   if (!NodeList.prototype.emojify)
   {
     NodeList.prototype.emojify = emojify;
+  }
+  if (!HTMLCollection.prototype.emojify)
+  {
+    HTMLCollection.prototype.emojify = emojify;
   }
 }());
 
