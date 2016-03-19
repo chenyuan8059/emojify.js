@@ -39,3 +39,42 @@ Here is a list of the emojis names available to use, and the emoji they become:
           halo, angel -> 😇
 delicious, toungelick -> 😋
 ```
+
+## Usage 
+Using this library is really simple, all you do is append ```.emojify()``` onto an HTMLElement, NodeList, or HTMLCollection of your choosing, and run it when the window loads.
+
+```javascript
+window.addEventListener('load', function(){
+  document.getElementById('emoji').emojify();
+});
+```
+This will only replace the emoji text with emojis in the element with the ID of ```emoji```
+
+
+If you wanted to use emojis anywhere in the webpage, try this:
+```javascript
+window.addEventListener('load', function(){
+  document.getElementsByTagName('body').emojify();
+});
+```
+This will replace all the emoji names within the ```<body>``` and ```</body>``` tags.
+
+
+Since this piggybacks on HTMLElement, NodeList, and HTMLCollection, that means you can use any of the following:
+```javascript
+document.getElementById()
+document.getElementsByClassName()
+document.getElementsByTagName()
+document.getElementsByName()
+document.querySelector()
+document.querySelectorAll()
+```
+And any others that return a HTMLElement, NodeList, or HTMLCollection!
+
+
+## Example 
+See an [example on CodePen](http://codepen.io/mwrouse/pen/EKZzRX).
+
+
+## License 
+Distributed under the [MIT License](https://raw.githubusercontent.com/mwrouse/emojify.js/master/LICENSE)
