@@ -18,7 +18,7 @@ Here is a list of the emojis names available to use, and the emoji they become:
                  kiss -> 😗
             hearteyes -> 😍
             tongueout -> 😛
-         tongeoutwink -> 😜
+        tongueoutwink -> 😜
           cry, crying -> 😢
                 angry -> 😣
                scream -> 😱
