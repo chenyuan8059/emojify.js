@@ -17,7 +17,7 @@ Here is a list of the emojis names available to use, and the emoji they become:
                  wink -> 😉
                  kiss -> 😗
             hearteyes -> 😍
-             tongeout -> 😛
+            tongueout -> 😛
          tongeoutwink -> 😜
           cry, crying -> 😢
                 angry -> 😣
@@ -37,7 +37,7 @@ Here is a list of the emojis names available to use, and the emoji they become:
            blankstare -> 😐
           medicalmask -> 😷
           halo, angel -> 😇
-delicious, toungelick -> 😋
+delicious, tonguelick -> 😋
 ```
 
 ## Usage 
