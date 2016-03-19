@@ -82,7 +82,7 @@ This can be useful if the two colons conflic with other JavaScript libraries you
 
 
 ## Example 
-See an [example on CodePen](http://codepen.io/mwrouse/pen/EKZzRX).
+See an [example on CodePen](http://codepen.io/mwrouse/full/EKZzRX).
 
 
 ## License 
