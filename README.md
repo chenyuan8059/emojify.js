@@ -70,7 +70,7 @@ Here is a list of the emoji names available to use, and the emoji they become:
 delicious, tonguelick -> 😋
 ```
 
-### Syntax Custimization 
+### Syntax Customization 
 If you do not want to use colons as a prefix and suffix around your emojis, then simply pass the ```.emojify()``` function two string parameters, the first being the prefix, the second is the suffix. 
 
 ```javascript
