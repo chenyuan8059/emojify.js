@@ -55,7 +55,7 @@
 								'halo': '1F607',
 							 'angel': '1F607',
 		}; 
-
+ 
 		
 		/**
      * Function.....: Replace Emojis
