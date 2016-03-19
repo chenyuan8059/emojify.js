@@ -48,7 +48,7 @@
              'fearful': '1F628',
              'triumph': '1F624',
             'sleeping': '1F634',
-               'dizzy': '1F6435',
+               'dizzy': '1F635',
              'nomouth': '1F636',
           'blankstare': '1F636',
          'medicalmask': '1F637', 
