@@ -7,7 +7,7 @@ This library has the most common, and versatile, emojis while remaining lightwei
 This library contains 31 of the most common emojis for your use, to use them simply surround the name of the emoji in colons, like ```:emojiname:```
 
 
-Here is a list of the emojis names available to use, and the emoji they become: 
+Here is a list of the emoji names available to use, and the emoji they become: 
 ```
                 smile -> 😊
       frown, pounting -> 😡
