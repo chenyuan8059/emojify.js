@@ -65,17 +65,7 @@
      */
     this.replaceEmojis = function(elem)
     {
-      var html = "";
-      
-      // Handle elem differently if it is a string 
-      if (typeof elem === "string")
-      {
-        html = elem;
-      }
-      else if (elem instanceof HTMLElement)
-      {
-        html = elem.innerHTML;
-      }
+      var html = elem.innerHTML;
       
       // Replace emojis with the unicode value
       for (var emoji in this.emojis)
@@ -114,12 +104,6 @@
 
 
     // Constructor
-    if (typeof this.parent === "string")
-    {
-      return this.replaceEmojis(this.parent);
-    }
-    
-    // Replace if this.parent is not a string
     this.replace();
 
     return this;
