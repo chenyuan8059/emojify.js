@@ -10,11 +10,15 @@
  * Description..: This JavaScript library allows you to quickly use unicode emojis with a simple syntax
  */
 (function(){
-  var emojify = function(){
+  var emojify = function(prefix, suffix){
+    // Default variables 
+    prefix = (prefix === undefined) ? ':' : prefix;
+    suffix = (suffix === undefined) ? ':' : suffix;
+    
     // Do not break scope
     if (this === HTMLElement || this === NodeList || this === HTMLCollection)
     {
-      return new emojify();
+      return new emojify(prefix, suffix);
     }
 
     // Remember parent element
@@ -74,7 +78,7 @@
       // Replace emojis with the unicode value
       for (var emoji in this.emojis)
       {
-        html = html.replace(new RegExp(':'+emoji+':', 'g'), '&#x'+this.emojis[emoji]+';');
+        html = html.replace(new RegExp(prefix+emoji+suffix, 'g'), '&#x'+this.emojis[emoji]+';');
       }
       
       return html;
