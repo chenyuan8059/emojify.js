@@ -34,10 +34,12 @@
            'hearteyes': '1F60D', 
             'tongeout': '1F61B', 
         'tongeoutwink': '1F61C', 
+                 'cry': '1F6322',
               'crying': '1F622',
                'angry': '1F623',
               'scream': '1F631', 
             'schocked': '1F632',
+                'gasp': '1F6322',
             'unamused': '1F612',
             'confused': '1F615',
         'noexpression': '1F611',
@@ -54,6 +56,8 @@
          'medicalmask': '1F637', 
                 'halo': '1F607',
                'angel': '1F607',
+          'toungelick': '1F60B',
+           'delicious': '1F60B',
     }; 
 
     
