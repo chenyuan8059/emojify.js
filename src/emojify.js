@@ -55,7 +55,7 @@
 								'halo': '1F607',
 							 'angel': '1F607',
 		}; 
- 
+
 		
 		/**
      * Function.....: Replace Emojis
@@ -65,8 +65,18 @@
      */
 		this.replaceEmojis = function(elem)
 		{
-		  var html = elem.innerHTML;
-
+			var html = "";
+			
+			// Handle elem differently if it is a string 
+			if (typeof elem === "string")
+			{
+				html = elem;
+			}
+			else if (elem instanceof HTMLElement)
+			{
+				html = elem.innerHTML;
+			}
+			
 			// Replace emojis with the unicode value
 			for (var emoji in this.emojis)
 			{
@@ -96,7 +106,7 @@
 			else 
 			{
 				// Parent is just one single HTMLElement
-				this.parent.innerHTML = this.replaceEmojis(this.parent);
+        this.parent.innerHTML = this.replaceEmojis(this.parent);
 			}
 
 			return;
@@ -104,6 +114,12 @@
 
 
 		// Constructor
+		if (typeof this.parent === "string")
+		{
+			return this.replaceEmojis(this.parent);
+		}
+		
+		// Replace if this.parent is not a string
 		this.replace();
 
 		return this;
@@ -120,3 +136,6 @@
 		NodeList.prototype.emojify = emojify;
 	}
 }());
+
+
+document.getElementById('emoji2').emojify();
