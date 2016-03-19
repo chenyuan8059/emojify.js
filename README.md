@@ -1,7 +1,7 @@
 # Emojify.js
 This tiny JavaScript library allows you to easily use the most popular emojis on your webpage, without constantly looking up or remembering the unicode values.
 
-## Usage 
+## Setup
 Using this library is really simple, all you do is append ```.emojify()``` onto an HTMLElement, NodeList, or HTMLCollection of your choosing, and run it when the window loads.
 
 ```javascript
