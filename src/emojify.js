@@ -2,7 +2,7 @@
  * ====================================
  *          Emojify.js 
  * ===================================
- *
+ * 
  * Author.......: Michael Rouse
  * Language.....: JavaScript
  * Date.........: March 2016
