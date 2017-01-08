@@ -33,11 +33,11 @@ document.querySelectorAll()
 And any others that return a HTMLElement, NodeList, or HTMLCollection!
 
 
-## Syntax 
+## Syntax
 This library contains 31 of the most common emojis for your use, to use them simply surround the name of the emoji in colons, like ```:emojiname:```
 
 
-Here is a list of the emoji names available to use, and the emoji they become: 
+Here is a list of the emoji names available to use, and the emoji they become:
 ```
                 smile -> 😊
        frown, pouting -> 😡
@@ -46,6 +46,7 @@ Here is a list of the emoji names available to use, and the emoji they become:
              laughcry -> 😂
                  wink -> 😉
                  kiss -> 😗
+             kisswink -> 😘
             hearteyes -> 😍
             tongueout -> 😛
         tongueoutwink -> 😜
@@ -70,8 +71,8 @@ Here is a list of the emoji names available to use, and the emoji they become:
 delicious, tonguelick -> 😋
 ```
 
-### Syntax Customization 
-If you do not want to use colons as a prefix and suffix around your emojis, then simply pass the ```.emojify()``` function two string parameters, the first being the prefix, the second is the suffix. 
+### Syntax Customization
+If you do not want to use colons as a prefix and suffix around your emojis, then simply pass the ```.emojify()``` function two string parameters, the first being the prefix, the second is the suffix.
 
 ```javascript
 document.getElementById('example').emojify('~', '!');
@@ -81,9 +82,9 @@ This line above, would only work when emojis are in the form ```~emojiname!```.
 This can be useful if the two colons conflic with other JavaScript libraries you might be using.
 
 
-## Example 
+## Example
 See an [example on CodePen](http://codepen.io/mwrouse/pen/EKZzRX).
 
 
-## License 
+## License
 Distributed under the [MIT License](https://raw.githubusercontent.com/mwrouse/emojify.js/master/LICENSE)
